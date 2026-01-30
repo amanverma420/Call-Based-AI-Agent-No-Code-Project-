@@ -1,4 +1,4 @@
-✅ README.md (with rendered images)
+
 # 📞 Call-Based AI Agent (No-Code Project)
 
 This project demonstrates how to build a **call-based AI agent (Telephone AI Agent)** without writing code, using **VideoSDK (Video HDK)**, **Google Gemini**, and **Twilio**.  
@@ -29,16 +29,11 @@ The agent can receive and make phone calls, converse in **Hindi/English**, and r
 
 ## 🔄 System Architecture (High Level)
 
-User Phone Call
-↓
-Twilio Phone Number
-↓
-Twilio SIP Trunk
-↓
-VideoSDK Telephony Gateway
-↓
-AI Agent (Gemini + Knowledge Base)
-↓
+User Phone Call ->
+Twilio Phone Number ->
+Twilio SIP Trunk ->
+VideoSDK Telephony Gateway ->
+AI Agent (Gemini + Knowledge Base) ->
 Voice Response to User
 
 
